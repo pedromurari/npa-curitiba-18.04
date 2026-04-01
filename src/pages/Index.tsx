@@ -7,6 +7,7 @@ import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
 import logoDespertaMente from "@/assets/despertamente-simbolo.png";
 import rodrygoMurari from "@/assets/rodrygo-murari.png";
+import { VideoPlayer } from "@/components/VideoPlayer";
 const Index = () => {
   useEffect(() => {
 
@@ -43,6 +44,10 @@ const Index = () => {
               Com Rodrygo Murari: Saia com Seu Mapa Essencial Pronto, Certificado e Material de Apoio Exclusivo para Aplicar Imediatamente.
             </h2>
             
+            {/* Video de Vendas */}
+            <div className="w-full max-w-3xl mx-auto mb-6 -mx-[15px] md:mx-auto">
+              <VideoPlayer />
+            </div>
 
             <div className="text-lg md:text-xl text-muted-foreground space-y-2 max-w-3xl mx-auto">
               <div className="bg-card/50 border-2 border-primary/40 rounded-xl p-4 mt-4 mb-4">

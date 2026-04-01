@@ -37,7 +37,7 @@ export const VideoPlayer = () => {
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/enYdWdV5zGM?si=rla4PapIkCbys1Ys&controls=0&autoplay=1"
+          src="https://www.youtube.com/embed/enYdWdV5zGM?si=oCa3x1-5XR_KxeEK&controls=0&autoplay=1"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
