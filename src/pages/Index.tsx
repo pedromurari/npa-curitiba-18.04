@@ -60,7 +60,7 @@ const Index = () => {
                 <span className="flex items-center gap-1">👥 Vagas Limitadas</span>
               </div>
               <p className="text-2xl md:text-3xl font-bold text-primary mt-4">
-                Garanta seu Ingresso por APENAS R$30 Reais!    
+                Garanta seu Ingresso por APENAS R$20 Reais!    
               </p>
             </div>
           </div>
@@ -205,7 +205,7 @@ const Index = () => {
           <div className="text-lg text-muted-foreground space-y-4 leading-relaxed mb-8">
             <p className="text-center">
               Você deve estar se perguntando: "Como um curso presencial com certificado pode custar
-               apenas R$ 30?"
+               apenas R$ 20?"
             </p>
             <p className="font-semibold text-primary text-xl text-center">
               A resposta é simples: nossa missão é DEMOCRATIZAR o autoconhecimento.
@@ -218,7 +218,7 @@ const Index = () => {
               independente da sua situação financeira.
             </p>
             <p className="text-center">
-              O investimento simbólico de R$ 30 garante seu compromisso e nossa capacidade de
+              O investimento simbólico de R$ 20 garante seu compromisso e nossa capacidade de
                organizar o melhor evento possível.
             </p>
             <p className="text-center text-primary font-bold">
@@ -234,7 +234,7 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Seu investimento hoje:</p>
-                  <p className="text-4xl font-bold price-shine">R$ 30</p>
+                  <p className="text-4xl font-bold price-shine">R$ 20</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Economia:</p>
@@ -253,7 +253,7 @@ const Index = () => {
                   {item}
                 </p>)}
             </div>
-              <p className="text-center text-xl font-bold price-shine mt-6">TUDO ISSO POR R$ 30!</p>
+              <p className="text-center text-xl font-bold price-shine mt-6">TUDO ISSO POR R$ 20!</p>
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@ const Index = () => {
                 👉 Você está a APENAS 1 CLIQUE de transformar sua vida
               </p>
               <p className="font-semibold text-primary text-xl">
-                👉 São apenas R$ 30 - menos que um almoço
+                👉 São apenas R$ 20 - menos que um almoço
               </p>
               <p className="font-semibold text-primary text-xl">
                 👉 Risco ZERO e retorno INFINITO
@@ -298,7 +298,7 @@ const Index = () => {
           });
         }}>
             <button className="w-full max-w-md mx-auto h-auto py-4 px-6 text-lg md:text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-2xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105">
-              🚀 Últimas Vagas: Garanta Sua Transformação Presencial por R$30!
+              🚀 Últimas Vagas: Garanta Sua Transformação Presencial por R$20!
             </button>
           </a>
 

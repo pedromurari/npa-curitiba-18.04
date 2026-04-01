@@ -116,7 +116,7 @@ export const EnrollmentForm = () => {
       });
 
       // Valores dinâmicos para o Meta Pixel (turma + timestamp para variação)
-      const baseValue = 32.00;
+      const baseValue = 22.00;
       const uniqueValue = baseValue + Date.now() % 100 / 100; // Adiciona variação de centavos
       const leadEventId = `npa_lead_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
       
@@ -186,7 +186,7 @@ export const EnrollmentForm = () => {
           (window as any).fbq('track', 'InitiateCheckout', {
             content_name: `Curso Presencial Numerologia - ${turmaConfig.label}`,
             content_type: 'product',
-            value: 30.00,
+            value: 20.00,
             currency: 'BRL'
           }, { 
             eventID: checkoutEventId,
@@ -215,7 +215,7 @@ export const EnrollmentForm = () => {
             customData: {
               content_name: `Curso Presencial Numerologia - ${turmaConfig.label}`,
               content_type: 'product',
-              value: 30.00,
+              value: 20.00,
               currency: 'BRL'
             }
           })
@@ -357,7 +357,7 @@ export const EnrollmentForm = () => {
               Processando...
             </> :
 
-          <>⚡ Últimas Vagas: Garanta Sua Transformação por R$30!</>
+          <>⚡ Últimas Vagas: Garanta Sua Transformação por R$20!</>
           }
         </button>
 
