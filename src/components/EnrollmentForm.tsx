@@ -14,7 +14,7 @@ const TURMA_CONFIG = {
     data: "09 de Maio",
     diaSemana: "Sábado",
     horario: "09:00 às 13:00",
-    endereco: "R. Mateus Leme, 531 B - Centro Cívico",
+    endereco: "Hotel Parati Minas — Av. Brasil, 2960 - Bairro Brasil - Uberlândia",
     enderecoDefinido: true,
     sheetUrl: "https://script.google.com/macros/s/AKfycbyhlS8wyOCBcIitWTRJnga_H8MBi2KEYWcjz0MnkR3Y9nxo24NuW3Zv6OrTSM41Roc/exec",
     checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SCWD0"
@@ -24,7 +24,7 @@ const TURMA_CONFIG = {
     data: "09 de Maio",
     diaSemana: "Sábado",
     horario: "14:00 às 18:00",
-    endereco: "R. Mateus Leme, 531 B - Centro Cívico",
+    endereco: "Hotel Parati Minas — Av. Brasil, 2960 - Bairro Brasil - Uberlândia",
     enderecoDefinido: true,
     sheetUrl: "https://script.google.com/macros/s/AKfycbyhlS8wyOCBcIitWTRJnga_H8MBi2KEYWcjz0MnkR3Y9nxo24NuW3Zv6OrTSM41Roc/exec",
     checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SCWD1"
