@@ -7,6 +7,8 @@ import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
 import logoDespertaMente from "@/assets/despertamente-simbolo.png";
 import rodrygoMurari from "@/assets/rodrygo-murari.png";
+import logoEsic from "@/assets/logo-esic.png";
+import logoAsas from "@/assets/logo-asas.png";
 import { VideoPlayer } from "@/components/VideoPlayer";
 const Index = () => {
   useEffect(() => {
@@ -62,6 +64,18 @@ const Index = () => {
               <p className="text-2xl md:text-3xl font-bold text-primary mt-4">
                 Garanta seu Ingresso por APENAS R$20 Reais!    
               </p>
+            </div>
+          </div>
+
+          {/* Parceria */}
+          <div className="animate-fade-in mb-6">
+            <div className="flex flex-col items-center gap-3">
+              <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Realização em parceria com</p>
+              <div className="flex items-center justify-center gap-6 flex-wrap">
+                <img src={logoAsas} alt="Instituto ASAS" className="h-14 md:h-16 w-auto object-contain" />
+                <div className="w-px h-10 bg-border hidden sm:block" />
+                <img src={logoEsic} alt="ESIC Faculdade e Colégio Internacional" className="h-10 md:h-12 w-auto object-contain" />
+              </div>
             </div>
           </div>
 
