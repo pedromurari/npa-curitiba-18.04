@@ -7,8 +7,6 @@ import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
 import logoDespertaMente from "@/assets/despertamente-simbolo.png";
 import rodrygoMurari from "@/assets/rodrygo-murari.png";
-import logoEsic from "@/assets/logo-esic.png";
-import logoAsas from "@/assets/logo-asas.png";
 import { VideoPlayer } from "@/components/VideoPlayer";
 const Index = () => {
   useEffect(() => {
@@ -46,18 +44,6 @@ const Index = () => {
               Com Rodrygo Murari: Saia com Seu Mapa Essencial Pronto, Certificado e Material de Apoio Exclusivo para Aplicar Imediatamente.
             </h2>
             
-            {/* Parceria */}
-            <div className="animate-fade-in mb-6">
-              <div className="flex flex-col items-center gap-4">
-                <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Realização em parceria com</p>
-                <div className="flex items-center justify-center gap-8 flex-wrap">
-                  <img src={logoAsas} alt="Instituto ASAS" className="h-24 md:h-28 w-auto object-contain" />
-                  <div className="w-px h-16 bg-border hidden sm:block" />
-                  <img src={logoEsic} alt="ESIC Faculdade e Colégio Internacional" className="h-16 md:h-20 w-auto object-contain" />
-                </div>
-              </div>
-            </div>
-
             {/* Video de Vendas */}
             <div className="w-full max-w-3xl mx-auto mb-6 -mx-[15px] md:mx-auto">
               <VideoPlayer />
@@ -341,7 +327,7 @@ const Index = () => {
             <FAQItem value="faq-1" question="Nunca estudei numerologia. Este curso é para mim?" answer="SIM! Este curso foi desenvolvido especialmente para iniciantes. Você não precisa de conhecimento prévio. Vamos começar do zero e você sairá do evento já sabendo calcular e interpretar seu próprio mapa numerológico." />
             <FAQItem value="faq-2" question="Por que apenas R$ 20? Qual é a pegadinha?" answer="Não há pegadinha! Nossa missão é democratizar o autoconhecimento. O valor simbólico garante seu compromisso com o curso e cobre custos básicos de material. Queremos que o máximo de pessoas possam ter acesso a essa transformação." />
             <FAQItem value="faq-3" question="O certificado é reconhecido?" answer="Sim! Você receberá um certificado de conclusão emitido pelo Instituto DespertaMente, válido como comprovação de participação e aprendizado em Numerologia Pitagórica Sistêmica." />
-            <FAQItem value="faq-4" question="Quando e onde será o curso?" answer="O curso será realizado no dia 09/05 (Sábado), com duas turmas: Manhã (09h às 13h) e Tarde (14h às 18h), presencial dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba. As informações detalhadas do local exato serão enviadas imediatamente após sua inscrição, por WhatsApp e email." />
+            <FAQItem value="faq-4" question="Quando e onde será o curso?" answer="O curso será realizado no dia 09/05 (Sábado), com duas turmas: Manhã (09h às 13h) e Tarde (14h às 18h), presencial na Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba. As informações detalhadas do local exato serão enviadas imediatamente após sua inscrição, por WhatsApp e email." />
             <FAQItem value="faq-5" question="E se eu não puder comparecer depois de pagar?" answer="Entre em contato conosco com 48h de antecedência. Avaliaremos a possibilidade de transferir sua vaga para a próxima turma ou realizar o reembolso integral." />
             <FAQItem value="faq-6" question="Preciso levar algum material?" answer="Não! Todo material didático está incluso. Você só precisa levar você mesmo, com mente aberta e vontade de aprender. Recomendamos trazer uma garrafa de água e um caderno extra se quiser fazer anotações pessoais." />
             <FAQItem value="faq-7" question="Vou conseguir fazer cálculos numerológicos depois do curso?" answer="COM CERTEZA! O curso é 100% prático. Você vai calcular seu próprio mapa durante o evento e sairá de lá apto a calcular para outras pessoas. É aprender fazendo!" />
@@ -366,7 +352,7 @@ const Index = () => {
             </p>
             <p className="flex items-center justify-center gap-2">📱 WhatsApp: (11) 97537-9719</p>
             <p className="flex items-center justify-center gap-2">
-              📍 Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba
+              📍 Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba
             </p>
           </div>
 
@@ -391,24 +377,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-      {/* Botão flutuante WhatsApp */}
-      <a
-        href="https://wa.me/5511919434040?text=Ol%C3%A1!%20Tenho%20interesse%20no%20curso%20NPA%20presencial%20em%20Curitiba%20no%20dia%2009%2F05%20e%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas.%20Pode%20me%20ajudar%3F"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Fale conosco no WhatsApp"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
-        style={{ padding: "14px 20px" }}
-      >
-        {/* Ícone WhatsApp SVG oficial */}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white" className="w-7 h-7 flex-shrink-0">
-          <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.43-2.01A15.93 15.93 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.77-1.853l-.486-.288-5.004 1.194 1.234-4.872-.317-.5A13.27 13.27 0 012.667 16C2.667 8.637 8.637 2.667 16 2.667S29.333 8.637 29.333 16 23.363 29.333 16 29.333zm7.27-9.874c-.398-.199-2.355-1.162-2.72-1.294-.366-.133-.632-.199-.898.199-.266.398-1.032 1.294-1.265 1.56-.233.266-.465.299-.863.1-.398-.2-1.681-.62-3.202-1.977-1.183-1.056-1.982-2.36-2.215-2.758-.233-.398-.025-.613.175-.811.18-.179.398-.465.598-.698.199-.233.266-.398.398-.664.133-.266.066-.498-.033-.698-.1-.199-.898-2.164-1.232-2.962-.324-.778-.654-.673-.898-.685l-.765-.013c-.266 0-.698.1-1.064.498-.366.398-1.398 1.365-1.398 3.33 0 1.964 1.431 3.862 1.63 4.128.199.266 2.814 4.298 6.82 6.027.953.411 1.697.657 2.277.841.957.305 1.828.262 2.516.159.767-.115 2.355-.963 2.688-1.893.333-.93.333-1.727.233-1.893-.1-.166-.366-.266-.764-.465z"/>
-        </svg>
-        {/* Texto visível no hover */}
-        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap text-sm font-semibold">
-          Tire suas dúvidas
-        </span>
-      </a>
     </div>;
 };
 export default Index;
