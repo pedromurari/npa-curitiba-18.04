@@ -7,6 +7,8 @@ import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
 import logoDespertaMente from "@/assets/despertamente-simbolo.png";
 import rodrygoMurari from "@/assets/rodrygo-murari.png";
+import logoEsic from "@/assets/logo-esic.png";
+import logoAsas from "@/assets/logo-asas.png";
 import { VideoPlayer } from "@/components/VideoPlayer";
 const Index = () => {
   useEffect(() => {
@@ -44,6 +46,18 @@ const Index = () => {
               Com Rodrygo Murari: Saia com Seu Mapa Essencial Pronto, Certificado e Material de Apoio Exclusivo para Aplicar Imediatamente.
             </h2>
             
+            {/* Parceria */}
+            <div className="animate-fade-in mb-6">
+              <div className="flex flex-col items-center gap-4">
+                <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Realização em parceria com</p>
+                <div className="flex items-center justify-center gap-8 flex-wrap">
+                  <img src={logoAsas} alt="Instituto ASAS" className="h-24 md:h-28 w-auto object-contain" />
+                  <div className="w-px h-16 bg-border hidden sm:block" />
+                  <img src={logoEsic} alt="ESIC Faculdade e Colégio Internacional" className="h-16 md:h-20 w-auto object-contain" />
+                </div>
+              </div>
+            </div>
+
             {/* Video de Vendas */}
             <div className="w-full max-w-3xl mx-auto mb-6 -mx-[15px] md:mx-auto">
               <VideoPlayer />
