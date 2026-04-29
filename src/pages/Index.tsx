@@ -56,6 +56,9 @@ const Index = () => {
                   <img src={logoEsic} alt="ESIC Faculdade e Colégio Internacional" className="h-16 md:h-20 w-auto object-contain" />
                 </div>
               </div>
+              <p className="text-sm text-muted-foreground mt-1">
+                📍 Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba
+              </p>
             </div>
 
             {/* Video de Vendas */}
